@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+:root {
+    --color-yellow: #ffd76f;
+    --color-dark-yellow: #fab818;
+    --color-green: #34ffb6;
+    --color-light-black: #23252d;
+    --color-black: rgba(0, 0, 0, 0.9);
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-white: #dadada;
+    --color-icon: rgba(255, 255, 255, 0.6);
+    --color-icon-hover: rgba(255, 255, 255, 0.8);
+    --color-text-gray: rgba(255, 255, 255, 0.6);
+    --color-placeholder: rgba(255, 255, 255, 0.6);
+    --color-light-hover: rgba(255, 255, 255, 0.1);
+}
+
+.nav-top {
+    background-color: var(--color-light-black);
+    color: #dadada;
+
+}
+
+.nav-middle {
+    display: flex;
+}
+
+.nav-img {
+    margin-top: -20px;
+}
+
+.nav-top img:hover {
+    cursor: pointer;
+    fill: #dadada;
+}
+
+.options {
+    margin: 20px 10px 10px 0;
+
+}
+
+.options span select {
+    border: none;
+    color: var(--color-white);
+    background-color: var(--color-light-black);
+}
+
+.options span {
+    margin-left: 10px;
+}
+
+.icons {
+    margin: 20px 30px 10px 20px;
+}
+
+.icons i {
+    color: var(--color-dark-yellow);
+}
+
+.span-1 {
+    color: var(--color-dark-yellow);
+}
+
+.span-2 {
+    margin: 0 10px 0 10px;
+}
+
+.search-bar {
+    margin: 20px 0 0 20px;
+}
+
+.search-bar span i {
+    margin-left: 30px;
+}
+
+.search-bar span i:hover {
+    cursor: pointer;
+    color: var(--color-dark-yellow);
+
+}
